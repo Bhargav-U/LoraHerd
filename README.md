@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://drive.google.com/uc?export=view&id=1R76RO-RvLjjvH5Og5wXiJhJ14MkK0ojL" alt="Image Description">
 </p>
+
 ## Project Overview
 
 Welcome to the LoRa 4G Cattle Management Collar and Gateway project! This innovative solution combines LoRa and 4G technologies to enable efficient cattle tracking, health monitoring, and milk yield management. Below are the key features and functionalities of the project:
