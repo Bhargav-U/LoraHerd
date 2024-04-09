@@ -1,0 +1,64 @@
+/*
+
+$jsonData1 = '{
+        "function" : "gateway_registration" ,
+        "user_id" : 1112,
+        "gateway_mac" : "gateway_222"
+    }';
+
+
+
+//gateway_registration($conn, json_decode($jsonData1, true));
+
+$jsonData21 = '{
+    "function" : "node_registration" ,
+    "gateway_mac" :  "gateway_222" ,
+    "node_mac" : "C11"
+}';
+
+$jsonData22 = '{
+    "function" : "node_registration" ,
+    "gateway_mac" :  "gateway_222" ,
+    "node_mac" : "C12"
+}';
+
+//node_registration($conn, json_decode($jsonData21, true));
+//node_registration($conn, json_decode($jsonData22, true));
+
+$jsonData3 = '{
+    "function" : "publish_data",
+    "gateway_mac" : "gateway_222" ,
+    "data" : [
+        {
+            "cow_mac" : "C11" ,
+            "latitude" : 12.03 ,
+            "longitude" : 12.03 ,
+            "activity" : 0
+        },
+        {
+            "cow_mac" : "C12" ,
+            "latitude" : 12.13 ,
+            "longitude" : 12.13 ,
+            "activity" : 1
+        }
+    ]
+}';
+
+
+//publish_data($conn, json_decode($jsonData3, true));
+
+    params = {
+        'function': "get_gateway_id",
+        'gateway_id': "gateway123"
+    }
+    // for get request 
+
+    params = {
+        'function': "get_cow_history",
+        'gateway_id': "gateway12345"
+        'cow_mac' : "C12"
+    }
+    // for get request 
+
+
+*/
